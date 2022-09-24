@@ -8,13 +8,13 @@ TARGET_HW = 7
 
 # Optimization flags
 ## Optimize for size
-COMPACT = 0
+COMPACT = 1
 ## Optimize for debugging experience
-DEBUG = 1
+DEBUG = 0
 
 # Suffix to add to files when building distribution
 # If OS environment has DIST_SUFFIX set, it will be used instead
-DIST_SUFFIX = "local"
+DIST_SUFFIX = "lambda"
 
 # Coprocessor firmware
 COPRO_OB_DATA = "scripts/ob.data"
@@ -75,7 +75,7 @@ FIRMWARE_APPS = {
         "settings_apps",
         # Stock plugins - no longer built into fw, now they're .faps
         # Yet you can still build them as a part of fw
-        # "basic_plugins",
+        "basic_plugins",
         # Debug
         # "debug_apps",
     ],
