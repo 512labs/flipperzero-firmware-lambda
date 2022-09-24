@@ -31,3 +31,6 @@
 [submodule "lib/cxxheaderparser"]
 	path = lib/cxxheaderparser
 	url = https://github.com/robotpy/cxxheaderparser.git
+[submodule "applications/plugins/doom"]
+	path = applications/plugins/doom
+	url = git@github.com:p4nic4ttack/doom-flipper-zero.git
